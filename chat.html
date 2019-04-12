@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CHAT</title>
+        <link rel="stylesheet" href="css/styles.css">
+
+
+
+<link rel="stylesheet" href="css/fuente.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-AU-compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    
+    <style>
+        .parallax-title{
+            margin-top: 170px;
+        }
+        
+        .img{
+            width: 20px;
+        }
+        #registrate{
+            margin-top: -20px;
+        }
+    
+        
+        .slides{
+            widows: 100%;
+        }
+        
+        #com{
+            width: 110px;
+        }
+        
+        .card{
+            transition: .5s;
+            transform: scale(1.03);
+        }
+
+        .contenedor-usuarios{
+            margin-top:101px;
+            margin-right: 202px;
+        }
+
+        #footer{
+            margin-left: : 500px;
+
+        }
+    
+    </style>
+
+
+
+
+
+<nav class="white">
+<div class="container">
+
+    <a href="" class="brand-logo grey-text hide-on-small-only"><img style="max-height:60px;" src="img/Logo-Buho2.png">&nbsp;&nbsp;&nbsp;&nbsp; </a>
+    <a href="" data-target="menu-responsive" class="sidenav-trigger">
+        <i class="material-icons grey-text">menu</i>
+    </a>
+    
+    
+   
+    </div>
+</nav>
+
+<br>
+<br>
+
+
+
+
+
+
+    </head>
+    <body>
+        <div class="container">
+        <div class="contenedor-chat" id="contenedor-mensajes"></div>
+		<div class="contenedor-usuarios hide-on-med-and-down" id="usuarios"></div>
+
+		
+		<div id="zona_mensajes" hidden>
+        	<input id="mensajes" type="text" placeholder="Mensaje">
+        		<button id="bttnEnviar" class="btn btn-success">ENVIAR</button>
+        </div>	
+       
+        
+		<div id="zona_login">
+			<input type="text" id="usuario">
+				<button id="bttnConectar" class="btn btn-success">Conectar</button>
+                 <samp id="status"></samp>
+        </div>
+       
+       
+
+        
+
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <a href="index.html" class="btn btn-success">Salir</a>
+        </ul>
+        
+		</div>
+		
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/socket.io.js"></script>
+        <script src="js/init.js"></script>
+
+
+<br>
+<br>
+<br>
+<center>
+ <footer class=" grey darken-3">
+          <div class="container" id="footer">
+            <div class="row">
+              <div class="col l12 s12">
+                <h5 class="white-text">Visita nuestro sitio</h5>
+                <h5 class="white-text">Acerca de:</h5>
+                <p class="white-text">Nuestro sitio está orientado a estudiantes universitarios que buscan superarse cada dia.
+                Unete a nuestra comunidad y empieza a aprender hoy, recuerda que "Aprender nunca fue tan facil". </p>
+                <p class="grey-text text-lighten-4"></p>
+              </div>
+              
+            </div>
+          </div>
+        </footer>
+        </center>
+
+
+    </body>
+
+</html>
