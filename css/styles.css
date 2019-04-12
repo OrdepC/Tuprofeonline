@@ -1,0 +1,19 @@
+.contenedor-chat{
+    
+    min-height: 220px;
+    max-height: 220px;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow: auto;
+    background-color: aquamarine;
+}
+
+.contenedor-usuarios{
+	
+	min-height: 220px;
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 7;
+    right: 0;
+    width: 300px;
+}
